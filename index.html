@@ -11,34 +11,42 @@
 
     </header>
     <main>
-        <section>
+        
+        <!-- Input section -->
+        <section class="input-area">
             <input type="number" step="any" id="convValue">
-            <button onclick="Convert()"></button>
+            <button onclick="Convert()">Convert</button>
         </section>
-       
+
+       <!-- Answer section -->
         <section>
+            <!-- length -->
             <div class="container-output" id="one">
-                <p>
+                <p class="heading-info">
                     Length(Meter/Feet)
                 </p>
-                <p>
-                    <span>0</span> meters = <span>0</span>feets | <span>0</span> feet = <span>0</span> meters
+                <p class="answers">
+                    <span>0</span> meters = <span>0</span> feets | <span>0</span> feet = <span>0</span> meters
                 </p>
             </div>
+
+            <!-- volume -->
             <div class="container-output" id="two">
-                <p>
+                <p class="heading-info" >
                     Volume(Liters/Gallons)
                 </p>
-                <p>
+                <p class="answers" >
                     <span>0</span> liters = <span>0</span> gallons | <span>0</span> gallons = <span>0</span> liters
                 </p>
             </div>
+
+            <!-- mass -->
             <div class="container-output" id="three">
-                <p>
+                <p class="heading-info" >
                     Mass(Kilograms/Pounds)
                 </p>
-                <p>
-                    <span>0</span> meters= <span>0 feet</span> | <span>0</span> feet = <span>0</span> meters
+                <p class="answers" >
+                    <span>0</span> kilos = <span>0</span> pounds | <span>0</span> pounds = <span>0</span> kilos
                 </p>
             </div>
         </section>
